@@ -8,9 +8,7 @@
   align-items: center;
 }
 
-.header img {
-height: 100px;
-}
+
 li {
   display: inline-block;
   font-weight: bold;
@@ -19,6 +17,7 @@ li+li {
   margin-left: 10px;
 }
 
-img {
-width: 30%;
-height: auto;}
+.header img {
+  height: 60px;
+  width: 60px;
+}
