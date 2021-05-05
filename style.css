@@ -25,7 +25,29 @@ a+a {
   margin-left: 20px;
 }
 .icon {
-  padding: 20px;
+padding: 20px;
+  }
+
+@media screen and (max-width: 700px) {
+  .header {
+    flex-direction: column; 
+    width: 100%; 
+
+  }
+  .bar {
+    background-color: #002171;
+    width: 100%;
+  }
+  li {
+    display: block;
+    text-align: center;
+  }
+  li+li {
+  margin-top: 10px;
+  margin-left: 0;
 }
-
-
+.icon {
+  background-color: #002171;
+ 
+  }
+}
